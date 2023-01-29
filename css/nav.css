@@ -1,0 +1,30 @@
+.nav {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.nav__link {
+    margin: 30px;
+    background-color: rgb(38, 56, 156);
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.nav__link:visited {
+    border: 2px double white;
+}
+
+.nav__link:focus {
+    outline: 2px outset black;
+}
+
+.nav__link:hover {
+    text-decoration: underline solid white;
+}
+
+.nav__link:active {
+    color: rgb(172, 170, 170);
+}

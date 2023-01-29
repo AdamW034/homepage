@@ -1,0 +1,94 @@
+.section__header {
+    background-color: rgb(38, 56, 156);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.section__paragraph {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.section__img {
+    border-radius: 20px;
+    box-shadow: 9px 16px 24px 0px rgb(38, 56, 156);
+}
+
+.section__ytMovie {
+    margin-top: 30px;
+}
+
+.section__nav {
+    max-width: 100%;
+    text-align: center;
+}
+
+.section__container {
+    overflow-x: auto;
+}
+
+.section__table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.section__tableRow:hover {
+    background-color: rgb(201, 188, 188);
+}
+
+.section__link {
+    margin: 30px;
+    background-color: rgb(38, 56, 156);
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.section__link:visited {
+    border: 2px double white;
+}
+
+.section__link:focus {
+    outline: 2px outset black;
+}
+
+.section__link:hover {
+    text-decoration: underline solid white;
+}
+
+.section__link:active {
+    color: rgb(172, 170, 170);
+}
+
+.section__tableHeader {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+    background-color: rgb(38, 56, 156);
+    color: white;
+}
+
+.section__tableCell {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.section__button {
+    background-color: rgb(38, 56, 156);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.section__button:hover {
+    text-decoration: underline solid white;
+    cursor: pointer;
+}

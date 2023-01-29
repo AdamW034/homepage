@@ -1,0 +1,11 @@
+.header {
+    text-align: center;
+    background-color: rgb(38, 56, 156);
+    color: white;
+    border-radius: 10px;
+}
+
+.header__header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
